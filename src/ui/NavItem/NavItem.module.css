@@ -1,0 +1,7 @@
+.os-nav-item {
+  margin: 8px 50px;
+}
+
+.os-nav-item:hover {
+  cursor: pointer;
+}

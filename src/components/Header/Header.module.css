@@ -1,0 +1,22 @@
+.os-header {
+  text-align: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.os-logo {
+  padding: 20px 0;
+}
+
+.os-navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 480px) {
+  .os-navbar {
+    display: block;
+  }
+}

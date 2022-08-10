@@ -1,0 +1,19 @@
+.logo-xs {
+  max-width: 50px;
+}
+
+.logo-s {
+  max-width: 100px;
+}
+
+.logo-m {
+  max-width: 250px;
+}
+
+.logo-l {
+  max-width: 500px;
+}
+
+.logo-xl {
+  max-width: 750px;
+}
