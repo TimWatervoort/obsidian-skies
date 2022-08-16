@@ -1,0 +1,33 @@
+.os-bio-photo {
+  max-width: 750px;
+  margin: 0px 20px;
+}
+
+.os-biopage {
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+  padding-bottom: 16px;
+}
+
+.os-bio-header {
+  margin: 20px 8px;
+  font-family: 'Aboreto', cursive;
+  font-size: 1.5em;
+}
+
+.os-bio-text {
+  margin: 16px 8px;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5em;
+}
+
+@media (max-width: 480px) {
+  .os-bio-photo {
+    max-width: 90%;
+  }
+
+  .os-bio-header {
+    font-size: 1em;
+  }
+}
