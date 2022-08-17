@@ -1,7 +1,11 @@
 .os-nav-item {
   margin: 8px 50px;
+  transition-property: margin;
+  transition-duration: 0.5s;
+  transition-delay: 0;
 }
 
 .os-nav-item:hover {
   cursor: pointer;
+  margin: 4px 50px 4px 50px;
 }

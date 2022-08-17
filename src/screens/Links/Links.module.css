@@ -1,0 +1,32 @@
+.os-links-photo {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.os-linkspage {
+  max-width: 900px;
+}
+
+.os-links-section {
+  font-family: 'Aboreto', cursive;
+  font-size: 2em;
+  margin: 50px auto;
+}
+
+.os-link {
+  padding: 24px 0 20px 0;
+  transition-property: padding;
+  transition-duration: 0.5s;
+  transition-delay: 0;
+}
+
+.os-link:hover {
+  padding: 16px 0 20px 0;
+  cursor: pointer;
+}
+
+@media (max-width: 480px) {
+  .os-links-photo {
+    max-width: 90%;
+  }
+}
