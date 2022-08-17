@@ -3,4 +3,6 @@ export default {
   YouTube: 'YouTube',
   Instagram: 'Instagram',
   Bandcamp: 'Bandcamp',
+  Discord: 'Discord',
+  Soundcloud: 'Soundcloud',
 };

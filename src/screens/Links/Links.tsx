@@ -23,7 +23,7 @@ const renderLinks = () => {
 
 const Links = () => {
   return (
-    <Container className={styles['os-linkspage']}>
+    <Container fluid className={styles['os-linkspage']}>
       <img src={OS_3_Forest} alt="Obsidian Skies band in forest" className={styles['os-links-photo']} />
       <Row className={styles['os-links-section']}>{renderLinks()}</Row>
     </Container>

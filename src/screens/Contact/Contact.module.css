@@ -1,0 +1,25 @@
+.os-contact-photo {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.os-contactpage {
+  max-width: 900px;
+  margin: auto;
+}
+
+.os-info {
+  margin-top: 24px;
+  font-family: 'Aboreto', cursive;
+}
+
+.os-label {
+  margin-right: 30px;
+  font-family: 'Cinzel Decorative', cursive;
+}
+
+@media (max-width: 480px) {
+  .os-contact-photo {
+    max-width: 90%;
+  }
+}

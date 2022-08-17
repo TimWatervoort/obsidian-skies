@@ -20,10 +20,6 @@ export const internalLinks = [
     label: common.Bio,
   },
   {
-    to: '/merch',
-    label: common.Merch,
-  },
-  {
     to: '/links',
     label: common.Links,
   },
@@ -49,5 +45,13 @@ export const externalLinks = [
   {
     to: 'https://obsidian-skies.bandcamp.com',
     label: links.Bandcamp,
+  },
+  {
+    to: 'https://discord.gg/yahHNbVasU',
+    label: links.Discord,
+  },
+  {
+    to: 'https://on.soundcloud.com/MpS7',
+    label: links.Soundcloud,
   },
 ];

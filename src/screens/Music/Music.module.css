@@ -1,0 +1,45 @@
+.os-musicpage {
+  max-width: 900px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.os-music-photo {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.os-track-listing-header {
+  font-size: 2em;
+  font-family: 'Cormorant SC', serif;
+}
+
+.os-track-listing {
+  font-family: 'Aboreto', cursive;
+  font-size: 1.5em;
+  margin: 24px auto;
+}
+
+.os-track {
+  padding: 24px 0 0 0;
+  transition-property: padding;
+  transition-duration: 0.5s;
+  transition-delay: 0;
+}
+
+.os-track:hover {
+  padding: 18px 0 6px 0;
+  cursor: pointer;
+}
+
+.os-music-header {
+  font-family: 'Aboreto', cursive;
+  font-size: 2em;
+  margin-top: 24px;
+}
+
+@media (max-width: 480px) {
+  .os-music-photo {
+    max-width: 90%;
+  }
+}

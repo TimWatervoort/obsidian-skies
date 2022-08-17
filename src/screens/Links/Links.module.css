@@ -10,7 +10,7 @@
 .os-links-section {
   font-family: 'Aboreto', cursive;
   font-size: 2em;
-  margin: 50px auto;
+  margin-top: 50px !important;
 }
 
 .os-link {

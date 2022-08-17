@@ -1,6 +1,6 @@
 .os-bio-photo {
   max-width: 750px;
-  margin: 0px 20px;
+  margin: 0px 20px 8px 20px;
 }
 
 .os-biopage {
@@ -14,6 +14,34 @@
   margin: 20px 8px;
   font-family: 'Aboreto', cursive;
   font-size: 1.5em;
+  transition-property: margin;
+  transition-duration: 0.5s;
+  transition-delay: 0;
+}
+
+.os-bio-header:hover {
+  cursor: pointer;
+}
+
+.os-first-name {
+  transition-property: margin;
+  transition-duration: 0.5s;
+  transition-delay: 0;
+}
+
+.os-first-name:hover {
+  margin: 14px 8px 26px 8px;
+}
+
+.os-second-name {
+  transition-property: padding;
+  transition-duration: 0.5s;
+  transition-delay: 0;
+  padding: 6px 0 0 0;
+}
+
+.os-second-name:hover {
+  padding: 0 0 6px 0;
 }
 
 .os-bio-text {
