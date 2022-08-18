@@ -7,5 +7,9 @@
 
 .os-nav-item:hover {
   cursor: pointer;
-  margin: 4px 50px 4px 50px;
+  margin: 2px 50px 4px 50px;
+}
+
+.os-active-link {
+  color: #fccca4;
 }
