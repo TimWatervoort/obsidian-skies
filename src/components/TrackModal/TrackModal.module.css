@@ -1,0 +1,13 @@
+.os-track-header {
+  margin: 24px;
+}
+
+.os-track-lyrics {
+  font-family: 'Crimson Text', serif;
+  font-size: 24px;
+  white-space: pre-wrap;
+}
+
+.os-divider {
+  margin: 16px;
+}

@@ -4,6 +4,7 @@ import music from 'strings/music';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import TrackModal from 'components/TrackModal';
 
 const Music = () => {
   return (
@@ -14,13 +15,13 @@ const Music = () => {
       <h4 className={styles['os-track-listing-header']}>{music.TrackListing}</h4>
       <Row className={styles['os-track-listing']}>
         <Col xs={12} className={styles['os-track']}>
-          {music.Celestial} ({music.CelestialLength})
+          <TrackModal track={music.Celestial} />
         </Col>
         <Col xs={12} className={styles['os-track']}>
-          {music.Rebirth} ({music.RebirthLength})
+          <TrackModal track={music.Rebirth} />
         </Col>
         <Col xs={12} className={styles['os-track']}>
-          {music.Home} ({music.HomeLength})
+          <TrackModal track={music.Home} />
         </Col>
       </Row>
     </Container>

@@ -14,32 +14,47 @@
 .os-modal-body {
   background-color: #1a1a1a;
   width: 500px;
-  min-height: 500px;
+  min-height: 50%;
+  max-height: 90%;
   position: relative;
   opacity: 1;
   border-radius: 10px;
   padding: 8px;
+  overflow: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .os-close-modal {
   position: absolute;
   top: 4px;
   right: 16px;
-  font-size: 2em;
+  font-size: 30px;
+}
+
+.wide {
+  width: 900px;
 }
 
 .os-close-modal:hover {
   cursor: pointer;
 }
 
+.os-modal-body::-webkit-scrollbar {
+  display: none;
+}
+
 @media (max-width: 480px) {
   .os-modal-body {
     width: 90%;
     height: 90%;
-    overflow: scroll;
   }
 
   .os-close-modal {
     font-size: 1.5em;
+  }
+
+  .wide {
+    width: 90%;
   }
 }

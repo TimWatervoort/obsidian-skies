@@ -6,6 +6,7 @@ const Contact = () => {
   return (
     <div className={styles['os-contactpage']}>
       <img src={OS_2_Cliff} alt="Obsidian Skies by cliff" className={styles['os-contact-photo']} />
+      <hr className={styles['os-divider']} />
       <h3 className={styles['os-info']}>
         <strong className={styles['os-label']}>{contact.Email}: </strong>
         {contact.BandEmail}

@@ -10,7 +10,7 @@
 .os-links-section {
   font-family: 'Aboreto', cursive;
   font-size: 2em;
-  margin-top: 50px !important;
+  margin-top: 16px !important;
 }
 
 .os-link {
@@ -25,8 +25,17 @@
   cursor: pointer;
 }
 
+.os-divider {
+  margin-top: 50px;
+}
+
 @media (max-width: 480px) {
   .os-links-photo {
     max-width: 90%;
+  }
+
+  .os-divider {
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

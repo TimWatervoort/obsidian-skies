@@ -25,6 +25,7 @@ const Links = () => {
   return (
     <Container fluid className={styles['os-linkspage']}>
       <img src={OS_3_Forest} alt="Obsidian Skies band in forest" className={styles['os-links-photo']} />
+      <hr className={styles['os-divider']} />
       <Row className={styles['os-links-section']}>{renderLinks()}</Row>
     </Container>
   );
