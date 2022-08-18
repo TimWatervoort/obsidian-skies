@@ -1,0 +1,59 @@
+.os-bio-header {
+  margin: 20px 8px;
+  font-family: 'Aboreto', cursive;
+  font-size: 1.5em;
+}
+
+.os-bio-header:hover {
+  cursor: pointer;
+}
+
+.isFirst {
+  transition-property: margin;
+  transition-duration: 0.5s;
+  transition-delay: 0;
+}
+
+.isFirst:hover {
+  margin: 14px 8px 26px 8px;
+}
+
+.isSecond {
+  padding: 6px 0 0 0;
+  transition-property: padding;
+  transition-duration: 0.5s;
+  transition-delay: 0;
+}
+
+.isSecond:hover {
+  padding: 0 0 6px 0;
+}
+
+.os-member-image {
+  width: 400px;
+  padding: 16px;
+}
+
+.os-modal-name {
+  font-family: 'Aboreto', cursive;
+  font-size: 2em;
+}
+
+.os-modal-instruments {
+  font-family: 'Aboreto', cursive;
+  font-size: 1.5em;
+}
+
+.os-hr {
+  margin: 16px 30px;
+}
+
+.os-modal-section-header {
+  font-size: 2em;
+  font-family: 'Cormorant SC', serif;
+}
+
+.os-modal-section-content {
+  font-family: 'Aboreto', cursive;
+  font-size: 1em;
+}

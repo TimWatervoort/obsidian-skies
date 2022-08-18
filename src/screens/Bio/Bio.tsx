@@ -1,14 +1,16 @@
 import styles from './Bio.module.css';
 import OS_1_Creek from 'assets/OS_1_Creek.jpg';
+import OS_4_Tim from 'assets/OS_4_Tim.jpg';
+import OS_5_Logan from 'assets/OS_5_Logan.jpg';
 import bio from 'strings/bio';
-import classnames from 'classnames';
+import MemberModal from 'components/MemberModal';
 
 const Bio = () => {
   return (
     <div className={styles['os-biopage']}>
       <img className={styles['os-bio-photo']} alt="Obsidian Skies band" src={OS_1_Creek} />
-      <h5 className={classnames(styles['os-bio-header'], styles['os-first-name'])}>{bio.Tim}</h5>
-      <h5 className={classnames(styles['os-bio-header'], styles['os-second-name'])}>{bio.Logan}</h5>
+      <MemberModal isFirst image={OS_4_Tim} member={bio.Tim} />
+      <MemberModal image={OS_5_Logan} member={bio.Logan} />
       <hr />
       <p className={styles['os-bio-text']}>{bio.BioLine1}</p>
       <p className={styles['os-bio-text']}>{bio.BioLine2}</p>
