@@ -12,7 +12,7 @@
 }
 
 .os-modal-body {
-  background-color: black;
+  background-color: #1a1a1a;
   width: 500px;
   min-height: 500px;
   position: relative;
@@ -35,5 +35,11 @@
 @media (max-width: 480px) {
   .os-modal-body {
     width: 90%;
+    height: 90%;
+    overflow: scroll;
+  }
+
+  .os-close-modal {
+    font-size: 1.5em;
   }
 }

@@ -57,3 +57,21 @@
   font-family: 'Aboreto', cursive;
   font-size: 1em;
 }
+
+@media (max-width: 480px) {
+  .os-member-image {
+    width: 90%;
+  }
+
+  .os-modal-name {
+    font-size: 1.5em;
+  }
+
+  .os-modal-instruments {
+    font-size: 1em;
+  }
+
+  .os-modal-section-header {
+    font-size: 1.5em;
+  }
+}
