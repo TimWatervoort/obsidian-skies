@@ -1,4 +1,4 @@
-export default {
+const bio = {
   BioLine1: `Obsidian Skies was founded amidst the turmoil of 2020 by Logan Dougherty and Tim Watervoort. The two had worked together before, but not since the breakup of their previous band, Endlight, in 2017. Logan and Tim wrote much of Endlight’s music, with Logan on guitars and Tim on bass and vocals. They performed throughout Colorado, sharing the stage with bands such as Unleash the Archers and Archspire until the band’s end. While they remained close friends, Tim and Logan’s musical and professional paths diverged for a time at this point.`,
   BioLine2: `During this time, Logan attained a Bachelor’s degree in Music Composition, adding to his Physics and Astrophysics degrees. He released a solo orchestral album, “Kingdom of Sand” in 2017, and had his chamber works performed at the University of Colorado College of Music. Tim completed his Master’s degree in Linguistics and went through an accelerated full-stack web development program. He performed as a vocalist for Oak, Ash & Thorn for a time in 2018, sharing the stage with bands such as Týr and Alestorm. Following this, he focused his musical attention on bass and solo metal work.`,
   BioLine3: `When the COVID-19 pandemic hit and everyone was stuck indoors, the two looked for a project to work on, half to stay sane, and half to explore a new creative outlet. At this time, Obsidian Skies was born. It started with Tim and Logan sharing parts with each other that they had previously written. However, as time went on, it became a true collaborative writing process, with the two writing each song together. Their first release, “Saturnian”, is absolutely some of the best work either has ever produced.`,
@@ -24,3 +24,5 @@ export default {
     OtherRoles: 'Lyrics, drum programming'
   },
 }
+
+export default bio;

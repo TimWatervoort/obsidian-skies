@@ -38,7 +38,7 @@ const MemberModal = ({member, image, isFirst}: MemberModalProps) => {
         {member.Name} - {member.Instruments}
       </h5>
       <Modal isOpen={showModal} closeModal={() => setShowModal(false)}>
-        <img src={image} alt="Band member photo" className={styles['os-member-image']} />
+        <img src={image} alt="Band member" className={styles['os-member-image']} />
         <h3 className={styles['os-modal-name']}>{member.Name}</h3>
         <h3 className={styles['os-modal-instruments']}>{member.Instruments}</h3>
         <hr className={styles['os-hr']} />

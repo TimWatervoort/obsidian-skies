@@ -1,4 +1,4 @@
-export default {
+const links = {
   Facebook: 'Facebook',
   YouTube: 'YouTube',
   Instagram: 'Instagram',
@@ -6,3 +6,5 @@ export default {
   Discord: 'Discord',
   Soundcloud: 'Soundcloud',
 };
+
+export default links;

@@ -19,7 +19,7 @@ const Header = () => {
   return (
     <div className={styles['os-header']}>
       <div className={styles['os-logo']}>
-        <Logo size="m" style="white" />
+        <Logo size="m" color="white" />
       </div>
       {renderNavbar()}
     </div>

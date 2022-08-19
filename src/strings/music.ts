@@ -1,4 +1,4 @@
-export default {
+const music = {
   Header: 'Debut EP "Saturnian" coming 2022!',
   TrackListing: 'track listing',
   Celestial: {
@@ -133,3 +133,5 @@ export default {
     And now we shall write songs of home`,
   }
 };
+
+export default music;

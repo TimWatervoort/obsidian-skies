@@ -4,12 +4,12 @@ import stylizedLogo from 'assets/logo_stylized.png';
 import styles from './Logo.module.css';
 
 interface LogoProps {
-  style: 'white' | 'stylized';
+  color: 'white' | 'stylized';
   size: 'xs' | 's' | 'm' | 'l' | 'xl';
 }
 
 const Logo = (props: LogoProps) => {
-  const {style, size} = props;
+  const {color, size} = props;
 
   const logos = {
     white: whiteLogo,
@@ -18,7 +18,7 @@ const Logo = (props: LogoProps) => {
 
   return (
     <div>
-      <img className={styles[`logo-${size}`]} src={logos[style]} />
+      <img alt="Obsidian Skies" className={styles[`logo-${size}`]} src={logos[color]} />
     </div>
   );
 };

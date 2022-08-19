@@ -1,4 +1,4 @@
-export default {
+const common = {
   Home: 'Home',
   Music: 'Music',
   Bio: 'Bio',
@@ -6,3 +6,5 @@ export default {
   Links: 'Links',
   Contact: 'Contact',
 };
+
+export default common;
