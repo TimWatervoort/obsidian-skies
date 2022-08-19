@@ -7,14 +7,7 @@ const Contact = () => {
     <div className={styles['os-contactpage']}>
       <img src={OS_2_Cliff} alt="Obsidian Skies by cliff" className={styles['os-contact-photo']} />
       <hr className={styles['os-divider']} />
-      <h3 className={styles['os-info']}>
-        <strong className={styles['os-label']}>{contact.Email}: </strong>
-        {contact.BandEmail}
-      </h3>
-      <h3 className={styles['os-info']}>
-        <strong className={styles['os-label']}>{contact.Phone}: </strong>
-        {contact.BandPhone}
-      </h3>
+      <h3 className={styles['os-info']}>{contact.BandEmail}</h3>
     </div>
   );
 };
